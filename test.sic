@@ -1,0 +1,2 @@
+let (a0,a1) = λp. ((p λq. λr. λs. λt. (s ((a0 q) r))) λu. u) in
+((a1 λb. λc. (b λd. λe. (d λf. λg. (f λh. λi. i)))) λj. λk. (j λl. λm. (l λn. λo. o)))
